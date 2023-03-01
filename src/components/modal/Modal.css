@@ -1,0 +1,45 @@
+@import "../../App.css";
+
+.modal-background {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-background__modal {
+	background-color: var(--modalClr);
+	display: flex;
+	flex-direction: column;
+	padding: 2.5em;
+	width: 40%;
+	height: 30%;
+}
+
+.modal-background__modal * {
+	font-size: 1em;
+	margin: 0.5em 0;
+}
+
+.modal-background__modal_title {
+	align-self: center;
+	font-size: 2.5em;
+}
+
+.modal-background__modal__status-container {
+	display: flex;
+}
+
+.modal-background__modal__status-container * {
+	margin-right: 0.5em;
+}
+
+.modal-background__modal_close-btn {
+	width: 15%;
+	height: 10%;
+}
